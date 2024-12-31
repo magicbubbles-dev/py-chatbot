@@ -2,7 +2,9 @@ import spacy
 import requests
 
 nlp = spacy.load("en_core_web_md")
+
 api_key = "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"
+
 url = "https://openrouter.ai/api/v1/chat/completions"
 
 def get_response_from_llama(prompt):
@@ -42,4 +44,8 @@ if __name__ == "__main__":
             print('Have a good day!')
             break
         response = chatbot(user)
+<<<<<<< HEAD
         print(response)
+=======
+        print(response)
+>>>>>>> a3fd5e25641f7a2b2f9e091b3d1f46e16ae1a066
