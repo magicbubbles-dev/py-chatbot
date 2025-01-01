@@ -43,9 +43,6 @@ if __name__ == "__main__":
         if user.lower() in ['q', 'exit']:
             print('Have a good day!')
             break
-        response = chatbot(user)
-<<<<<<< HEAD
+
         print(response)
-=======
-        print(response)
->>>>>>> a3fd5e25641f7a2b2f9e091b3d1f46e16ae1a066
+
